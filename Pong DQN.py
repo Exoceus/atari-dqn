@@ -380,5 +380,4 @@ if __name__ == "__main__":
         loss_t.backward()
         optimizer.step()
     env.close()
-    if not COLAB:
-        writer.close()
+    writer.close()
